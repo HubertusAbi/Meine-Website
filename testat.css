@@ -1,0 +1,94 @@
+:root {
+
+}
+
+body {
+    padding: 20px;
+    width: auto;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.card .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.button-gruppe {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;               
+    margin: 15px 0;          
+    width: 100%;
+}
+
+.obere-buttons {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.1s ease; 
+    border-radius: 25px;
+}
+
+.obere-buttons:hover {
+    background-color: #dbeafe;
+    border-color: #93c5fd;
+}
+
+.obere-buttons:active {
+    transform: scale(0.97);
+}
+
+.href-buttons {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+.Spiele {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.Spiele:hover {
+    text-decoration: underline;
+}
+
+.games-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;            
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #1f2937;
+    border: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 700px;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+#Steam {
+    width: 100px;
+    height: auto;   
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#Steam:hover {
+    transform: scale(1.1);
+}

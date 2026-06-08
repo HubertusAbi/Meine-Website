@@ -1,6 +1,3 @@
-:root {
-
-}
 body {
     padding: 20px;
     width: auto;
@@ -68,7 +65,7 @@ body {
     margin-top: 20px;
 }
 
-.card {
+.card{
     background-color: #ffffff;
     color: #1f2937;
     border: 10px;
@@ -79,7 +76,6 @@ body {
     margin: 20px auto 0 auto;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
-
 #Steam {
     width: 100px;
     height: auto;   
@@ -117,13 +113,11 @@ body {
     flex-direction: column;
     gap: 18px;
 }
-
 .Formular label {
     font-weight: 500;
     font-size: 0.95rem;
     margin-bottom: -12px;
 }
-
 .Formular input[type="text"],
 .Formular input[type="email"] {
     width: 100%;
@@ -135,7 +129,6 @@ body {
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
     box-sizing: border-box;
 }
-
 .Formular input[type="text"]:focus,
 .Formular input[type="email"]:focus {
     outline: none;
@@ -143,7 +136,6 @@ body {
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
     background-color: #ffffff;
 }
-
 .student-abfrage {
     margin-top: 5px;
     padding: 12px;
@@ -151,14 +143,12 @@ body {
     border-radius: 8px;
     border: 1px solid #f1f5f9;
 }
-
 .student-abfrage p {
     font-weight: 500;
     color: #1f2937;
     margin-bottom: 10px;
     font-size: 0.95rem;
 }
-
 .student-abfrage input[type="radio"] {
     margin-right: 6px;
     width: 16px;
@@ -166,7 +156,6 @@ body {
     vertical-align: middle;
     cursor: pointer;
 }
-
 .student-abfrage label {
     margin-right: 25px;
     font-weight: normal;
@@ -174,12 +163,10 @@ body {
     cursor: pointer;
     vertical-align: middle;
 }
-
-.btns-row {
+#submit-button {
     margin-top: 10px;
 }
-
-.btns-row button[type="submit"] {
+#submit-button button[type="submit"] {
     background-color: #2563eb;
     color: white;
     border: none;
@@ -191,11 +178,9 @@ body {
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
-
-.btns-row button[type="submit"]:hover {
+#submit-button button[type="submit"]:hover {
     background-color: #1d4ed8;
 }
-
-.btns-row button[type="submit"]:active {
+#submit-button button[type="submit"]:active {
     transform: scale(0.98);
 }

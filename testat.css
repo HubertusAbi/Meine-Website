@@ -112,3 +112,90 @@ body {
     display: table;
     clear: both;
 }
+.Formular {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.Formular label {
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: -12px;
+}
+
+.Formular input[type="text"],
+.Formular input[type="email"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9fafb;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    box-sizing: border-box;
+}
+
+.Formular input[type="text"]:focus,
+.Formular input[type="email"]:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    background-color: #ffffff;
+}
+
+.student-abfrage {
+    margin-top: 5px;
+    padding: 12px;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #f1f5f9;
+}
+
+.student-abfrage p {
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.student-abfrage input[type="radio"] {
+    margin-right: 6px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.student-abfrage label {
+    margin-right: 25px;
+    font-weight: normal;
+    font-size: 1rem;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btns-row {
+    margin-top: 10px;
+}
+
+.btns-row button[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btns-row button[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+
+.btns-row button[type="submit"]:active {
+    transform: scale(0.98);
+}

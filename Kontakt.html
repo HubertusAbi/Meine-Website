@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="testat.css">
+</head>
+<body>
+    
+    <section class="card">
+        <div class="button-gruppe">
+            <button class="obere-buttons"><a href="main.html" class="href-buttons">Über mich</a></button>
+            <button class="obere-buttons"><a href="Projekte.html" class="href-buttons">Meine Projekte</a></button>
+        </div>
+        <h3>Geben Sie bitte Ihre Kontaktdaten an.</h3>
+        <p>Jedes Feld muss ausgefüllt werden!</p>
+        <form action="#" method="POST" class="Formular">
+            <label for="vorname">Ihr Vorname</label>
+            <input type="text" id="vorname" required>
+            <label for="nachname">Ihr Nachname</label>
+            <input type="text" id="nachname" required>
+            <label for="email">Ihre E-Mail-Adresse</label>
+            <input type="email" id="email" required>
+            <div class="student-abfrage">
+                <p>Gefällt Ihnen diese Seite?</p>
+                <input type="radio" id="student-ja" name="student" value="ja" required>
+                <label for="student-ja">Ja</label>
+                <input type="radio" id="student-nein" name="student" value="nein">
+                <label for="student-nein">Ja</label>
+            </div>
+            <div class="btns-row">
+                <button type="submit">Formular absenden</button>
+            </div>
+        </form>
+        <script src="testat.js"></script>
+    </section>
+</body>
+</html>

@@ -1,14 +1,12 @@
 :root {
 
 }
-
 body {
     padding: 20px;
     width: auto;
     align-items: center;
     background-color: #e5e7eb;
 }
-
 .card .center {
     display: flex;
     flex-direction: column;
@@ -91,4 +89,11 @@ body {
 
 #Steam:hover {
     transform: scale(1.1);
+}
+.card #Ali {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+    align-items: right;
 }

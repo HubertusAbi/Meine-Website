@@ -90,10 +90,25 @@ body {
 #Steam:hover {
     transform: scale(1.1);
 }
-.card #Ali {
+#Ali-container {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
     width: 100px;
+    height: 178px;
+    position: relative;
+}
+
+#Ali {
+    width: 100%;
     height: auto;
-    margin-top: 20px;
-    transition: transform 0.3s ease-in-out;
-    align-items: right;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+}
+#Ali-container:hover #Ali {
+    transform: scale(1.05);
+}
+.card::after {
+    content: "";
+    display: table;
+    clear: both;
 }

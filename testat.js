@@ -1,9 +1,13 @@
-const button = document.getElementById("Projekte");
-button.addEventListener('click', () => {
-    window.location.href = 'Projekte.html'
-});
+const audio = new Audio('Riff.mp3'); 
+const aliContainer = document.getElementById("Ali-container");
+const aliImg = document.getElementById("Ali");
 
-const button2 = document.getElementById("Stats");
-button.addEventListener('click', () => {
-    window.location.href = 'Stats.html'
-});
+if (aliContainer && aliImg) {
+    aliContainer.addEventListener("mouseenter", () => {
+        aliImg.src = "Ali.jpeg";
+    });
+    aliContainer.addEventListener("mouseleave", () => {
+        aliImg.src = "Klick-mich!.png";
+        audio.pause();
+    });
+}
